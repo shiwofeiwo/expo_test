@@ -88,13 +88,13 @@ class Shop$$Page extends React.Component<{
             flexDirection: 'row',
             display: 'flex',
             justifyContent: 'space-around',
-            height: '60px',
+            height: 60,
           }}
         >
           <Text style={{ color: '#ffffff' }}>Coupons</Text>
           <Text style={{ color: '#ffffff' }}>Alerts</Text>
         </View>
-        <View style={{ margin: '10px', flexDirection: 'row', display: 'flex' }}>
+        <View style={{ margin: 10, flexDirection: 'row', display: 'flex' }}>
           <Chip
             delayLongPress={0}
             maxFontSizeMultiplier={0}
@@ -114,9 +114,9 @@ class Shop$$Page extends React.Component<{
             ellipsizeMode="head"
             disabled={false}
             style={{
-              marginRight: '10px',
-              backgroundColor: '#23a943',
-              borderRadius: '16px',
+              marginRight: 10,
+              backgroundColor: '#14802d',
+              borderRadius: 16,
             }}
             showSelectedCheck={false}
             accessibilityLabel=""
@@ -183,9 +183,9 @@ class Shop$$Page extends React.Component<{
             ellipsizeMode="head"
             disabled={false}
             style={{
-              marginRight: '10px',
+              marginRight: 10,
               backgroundColor: '#ececec',
-              borderRadius: '16px',
+              borderRadius: 16,
             }}
             showSelectedCheck={false}
             accessibilityLabel=""
@@ -262,28 +262,26 @@ class Shop$$Page extends React.Component<{
             }}
           >
             <View
-              style={{ margin: '5px', flexDirection: 'row', display: 'flex' }}
+              style={{ margin: 5, flexDirection: 'row', display: 'flex' }}
             >
               <Image
-                style={{ width: '90px', height: '90px' }}
-                source={{
-                  uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test1.jpg?branchName=main',
-                }}
+                style={{ width: 90, height: 90 }}
+                source={require('@/assets/image/test1.jpg')}
               />
-              <View style={{ wordWrap: 'break-word', width: '270px' }}>
+              <View style={{ flexWrap: 'wrap', width: 270 }}>
                 <View
                   style={{
                     flexDirection: 'row',
                     display: 'flex',
-                    marginLeft: '5px',
-                    height: '20px',
+                    marginLeft: 5,
+                    height: 20,
                   }}
                 >
                   <Text
                     style={{
                       color: '#767676',
-                      fontSize: '12px',
-                      height: '20px',
+                      fontSize: 12,
+                      height: 20,
                     }}
                   >
                     Banggood
@@ -291,15 +289,15 @@ class Shop$$Page extends React.Component<{
                   <Text
                     style={{
                       color: '#767676',
-                      fontSize: '12px',
-                      marginLeft: '85px',
-                      height: '20px',
+                      fontSize: 12,
+                      marginLeft: 85,
+                      height: 20,
                     }}
                   >
                     2h ago
                   </Text>
                 </View>
-                <Text style={{ marginLeft: '5px' }}>
+                <Text style={{ marginLeft: 5 }}>
                   Original ZMI USB Type-C to 3.5mm Audio Adapter from Xiaomi
                   Eco-_
                 </Text>
@@ -308,62 +306,58 @@ class Shop$$Page extends React.Component<{
                     alignItems: 'center',
                     flexDirection: 'row',
                     display: 'flex',
-                    marginLeft: '5px',
-                    height: '30px',
+                    marginLeft: 5,
+                    height: 30,
                   }}
                 >
-                  <Text style={{ fontSize: '15px', fontWeight: 700 }}>
+                  <Text style={{ fontSize: 15, fontWeight: 700 }}>
                     $2.54
                   </Text>
                   <Image
                     style={{
-                      width: '80px',
-                      height: '30px',
-                      marginLeft: '140px',
+                      width: 80,
+                      height: 30,
+                      marginLeft: 140,
                     }}
-                    source={{
-                      uri: '/gateway/console/api/v1/asset/expo_test/assets/image/QQ20241022-165056.png?branchName=main',
-                    }}
+                    source={require('@/assets/image/QQ20241022-165056.png')}
                   />
                 </View>
               </View>
             </View>
           </TouchableRipple>
           <View
-            style={{ margin: '5px', flexDirection: 'row', display: 'flex' }}
+            style={{ margin: 5, flexDirection: 'row', display: 'flex' }}
           >
             <Image
-              style={{ width: '90px', height: '90px' }}
-              source={{
-                uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test2.jpg?branchName=main',
-              }}
+              style={{ width: 90, height: 90 }}
+              source={require('@/assets/image/test2.jpg')}
             />
-            <View style={{ wordWrap: 'break-word', width: '270px' }}>
+            <View style={{ flexWrap: 'wrap', width: 270 }}>
               <View
                 style={{
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '20px',
+                  marginLeft: 5,
+                  height: 20,
                 }}
               >
                 <Text
-                  style={{ color: '#767676', fontSize: '12px', height: '20px' }}
+                  style={{ color: '#767676', fontSize: 12, height: 20 }}
                 >
                   Banggood
                 </Text>
                 <Text
                   style={{
                     color: '#767676',
-                    fontSize: '12px',
-                    marginLeft: '85px',
-                    height: '20px',
+                    fontSize: 12,
+                    marginLeft: 85,
+                    height: 20,
                   }}
                 >
                   2h ago
                 </Text>
               </View>
-              <Text style={{ marginLeft: '5px' }}>
+              <Text style={{ marginLeft: 5 }}>
                 FLOVEME Car Phone Holder Air Vent Mount Gravity Auto Lock 3...
               </Text>
               <View
@@ -371,55 +365,51 @@ class Shop$$Page extends React.Component<{
                   alignItems: 'center',
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '30px',
+                  marginLeft: 5,
+                  height: 30,
                 }}
               >
-                <Text style={{ fontSize: '15px', fontWeight: 700 }}>$3.71</Text>
+                <Text style={{ fontSize: 15, fontWeight: 700 }}>$3.71</Text>
                 <Image
-                  style={{ width: '80px', height: '30px', marginLeft: '140px' }}
-                  source={{
-                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/QQ20241022-165056.png?branchName=main',
-                  }}
+                  style={{ width: 80, height: 30, marginLeft: 140 }}
+                  source={require('@/assets/image/QQ20241022-165056.png')}
                 />
               </View>
             </View>
           </View>
           <View
-            style={{ margin: '5px', flexDirection: 'row', display: 'flex' }}
+            style={{ margin: 5, flexDirection: 'row', display: 'flex' }}
           >
             <Image
-              style={{ width: '90px', height: '90px' }}
-              source={{
-                uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test3.jpg?branchName=main',
-              }}
+              style={{ width: 90, height: 90 }}
+              source={require('@/assets/image/test3.jpg')}
             />
-            <View style={{ wordWrap: 'break-word', width: '270px' }}>
+            <View style={{ flexWrap: 'wrap', width: 270 }}>
               <View
                 style={{
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '20px',
+                  marginLeft: 5,
+                  height: 20,
                 }}
               >
                 <Text
-                  style={{ color: '#767676', fontSize: '12px', height: '20px' }}
+                  style={{ color: '#767676', fontSize: 12, height: 20 }}
                 >
                   Banggood
                 </Text>
                 <Text
                   style={{
                     color: '#767676',
-                    fontSize: '12px',
-                    marginLeft: '85px',
-                    height: '20px',
+                    fontSize: 12,
+                    marginLeft: 85,
+                    height: 20,
                   }}
                 >
                   2h ago
                 </Text>
               </View>
-              <Text style={{ marginLeft: '5px' }}>
+              <Text style={{ marginLeft: 5 }}>
                 12Pcs/Set Xiaomi Radical 0.4mm Swiss Gel Pen Prevents Ink
                 Leak...
               </Text>
@@ -428,55 +418,51 @@ class Shop$$Page extends React.Component<{
                   alignItems: 'center',
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '30px',
+                  marginLeft: 5,
+                  height: 30,
                 }}
               >
-                <Text style={{ fontSize: '15px', fontWeight: 700 }}>$7.22</Text>
+                <Text style={{ fontSize: 15, fontWeight: 700 }}>$7.22</Text>
                 <Image
-                  style={{ width: '80px', height: '30px', marginLeft: '140px' }}
-                  source={{
-                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/QQ20241022-165056.png?branchName=main',
-                  }}
+                  style={{ width: 80, height: 30, marginLeft: 140 }}
+                  source={require('@/assets/image/QQ20241022-165056.png')}
                 />
               </View>
             </View>
           </View>
           <View
-            style={{ margin: '5px', flexDirection: 'row', display: 'flex' }}
+            style={{ margin: 5, flexDirection: 'row', display: 'flex' }}
           >
             <Image
-              style={{ width: '90px', height: '90px' }}
-              source={{
-                uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test4.jpg?branchName=main',
-              }}
+              style={{ width: 90, height: 90 }}
+              source={require('@/assets/image/test4.jpg')}
             />
-            <View style={{ wordWrap: 'break-word', width: '270px' }}>
+            <View style={{ flexWrap: 'wrap', width: 270 }}>
               <View
                 style={{
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '20px',
+                  marginLeft: 5,
+                  height: 20,
                 }}
               >
                 <Text
-                  style={{ color: '#767676', fontSize: '12px', height: '20px' }}
+                  style={{ color: '#767676', fontSize: 12, height: 20 }}
                 >
                   Banggood
                 </Text>
                 <Text
                   style={{
                     color: '#767676',
-                    fontSize: '12px',
-                    marginLeft: '85px',
-                    height: '20px',
+                    fontSize: 12,
+                    marginLeft: 85,
+                    height: 20,
                   }}
                 >
                   2h ago
                 </Text>
               </View>
-              <Text style={{ marginLeft: '5px' }}>
+              <Text style={{ marginLeft: 5 }}>
                 !MORE iBFree sport Light Wireless bluetooth Earphone
               </Text>
               <View
@@ -484,55 +470,51 @@ class Shop$$Page extends React.Component<{
                   alignItems: 'center',
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '30px',
+                  marginLeft: 5,
+                  height: 30,
                 }}
               >
-                <Text style={{ fontSize: '15px', fontWeight: 700 }}>$4.52</Text>
+                <Text style={{ fontSize: 15, fontWeight: 700 }}>$4.52</Text>
                 <Image
-                  style={{ width: '80px', height: '30px', marginLeft: '140px' }}
-                  source={{
-                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/QQ20241022-165056.png?branchName=main',
-                  }}
+                  style={{ width: 80, height: 30, marginLeft: 140 }}
+                  source={require('@/assets/image/QQ20241022-165056.png')}
                 />
               </View>
             </View>
           </View>
           <View
-            style={{ margin: '5px', flexDirection: 'row', display: 'flex' }}
+            style={{ margin: 5, flexDirection: 'row', display: 'flex' }}
           >
             <Image
-              style={{ width: '90px', height: '90px' }}
-              source={{
-                uri: '/gateway/console/api/v1/asset/expo_test/assets/image/logo.png?branchName=main',
-              }}
+              style={{ width: 90, height: 90 }}
+              source={require('@/assets/image/logo.png')}
             />
-            <View style={{ wordWrap: 'break-word', width: '270px' }}>
+            <View style={{ flexWrap: 'wrap', width: 270 }}>
               <View
                 style={{
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '20px',
+                  marginLeft: 5,
+                  height: 20,
                 }}
               >
                 <Text
-                  style={{ color: '#767676', fontSize: '12px', height: '20px' }}
+                  style={{ color: '#767676', fontSize: 12, height: 20 }}
                 >
                   Banggood
                 </Text>
                 <Text
                   style={{
                     color: '#767676',
-                    fontSize: '12px',
-                    marginLeft: '85px',
-                    height: '20px',
+                    fontSize: 12,
+                    marginLeft: 85,
+                    height: 20,
                   }}
                 >
                   2h ago
                 </Text>
               </View>
-              <Text style={{ marginLeft: '5px' }}>
+              <Text style={{ marginLeft: 5 }}>
                 Original ZMI USB Type-C to 3.5mm Audio Adapter from Xiaomi Eco-_
               </Text>
               <View
@@ -540,55 +522,51 @@ class Shop$$Page extends React.Component<{
                   alignItems: 'center',
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '30px',
+                  marginLeft: 5,
+                  height: 30,
                 }}
               >
-                <Text style={{ fontSize: '15px', fontWeight: 700 }}>$1.73</Text>
+                <Text style={{ fontSize: 15, fontWeight: 700 }}>$1.73</Text>
                 <Image
-                  style={{ width: '80px', height: '30px', marginLeft: '140px' }}
-                  source={{
-                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/QQ20241022-165056.png?branchName=main',
-                  }}
+                  style={{ width: 80, height: 30, marginLeft: 140 }}
+                  source={require('@/assets/image/QQ20241022-165056.png')}
                 />
               </View>
             </View>
           </View>
           <View
-            style={{ margin: '5px', flexDirection: 'row', display: 'flex' }}
+            style={{ margin: 5, flexDirection: 'row', display: 'flex' }}
           >
             <Image
-              style={{ width: '90px', height: '90px' }}
-              source={{
-                uri: '/gateway/console/api/v1/asset/expo_test/assets/image/8d4f2816e9087ee743880763c45ac021e3b3b7a9.jpg?branchName=main',
-              }}
+              style={{ width: 90, height: 90 }}
+              source={require('@/assets/image/8d4f2816e9087ee743880763c45ac021e3b3b7a9.jpg')}
             />
-            <View style={{ wordWrap: 'break-word', width: '270px' }}>
+            <View style={{ flexWrap: 'wrap', width: 270 }}>
               <View
                 style={{
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '20px',
+                  marginLeft: 5,
+                  height: 20,
                 }}
               >
                 <Text
-                  style={{ color: '#767676', fontSize: '12px', height: '20px' }}
+                  style={{ color: '#767676', fontSize: 12, height: 20 }}
                 >
                   Banggood
                 </Text>
                 <Text
                   style={{
                     color: '#767676',
-                    fontSize: '12px',
-                    marginLeft: '85px',
-                    height: '20px',
+                    fontSize: 12,
+                    marginLeft: 85,
+                    height: 20,
                   }}
                 >
                   2h ago
                 </Text>
               </View>
-              <Text style={{ marginLeft: '5px' }}>
+              <Text style={{ marginLeft: 5 }}>
                 Original ZMI USB Type-C to 3.5mm Audio Adapter from Xiaomi Eco-_
               </Text>
               <View
@@ -596,16 +574,14 @@ class Shop$$Page extends React.Component<{
                   alignItems: 'center',
                   flexDirection: 'row',
                   display: 'flex',
-                  marginLeft: '5px',
-                  height: '30px',
+                  marginLeft: 5,
+                  height: 30,
                 }}
               >
-                <Text style={{ fontSize: '15px', fontWeight: 700 }}>$2.27</Text>
+                <Text style={{ fontSize: 15, fontWeight: 700 }}>$2.27</Text>
                 <Image
-                  style={{ width: '80px', height: '30px', marginLeft: '140px' }}
-                  source={{
-                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/QQ20241022-165056.png?branchName=main',
-                  }}
+                  style={{ width: 80, height: 30, marginLeft: 140 }}
+                  source={require('@/assets/image/QQ20241022-165056.png')}
                 />
               </View>
             </View>

@@ -134,13 +134,11 @@ class DefaultPage$$Page extends React.Component<{
         >
           <Image
             resizeMethod="resize"
-            style={{ width: '95%', marginTop: '200px', height: '12%' }}
-            source={{
-              uri: '/gateway/console/api/v1/asset/expo_test/assets/image/logo_text.png?branchName=main',
-            }}
+            style={{ width: '95%', marginTop: 200, height: '12%' }}
+            source={require('@/assets/image/logo_text.png')}
           />
           <View
-            style={{ alignItems: 'center', display: 'flex', marginTop: '40px' }}
+            style={{ alignItems: 'center', display: 'flex', marginTop: 40 }}
           >
             <Input
               mode="flat"
@@ -150,7 +148,7 @@ class DefaultPage$$Page extends React.Component<{
                   Array.prototype.slice.call(arguments).concat([])
                 );
               }.bind(this)}
-              style={{ width: '300px', marginBottom: '20px' }}
+              style={{ width: 300, marginBottom: 20 }}
               label="Username"
               placeholder="Please enter username"
               error={__$$eval(() => this.state.error.username || this.state.error.password)}
@@ -177,7 +175,7 @@ class DefaultPage$$Page extends React.Component<{
                   Array.prototype.slice.call(arguments).concat([])
                 );
               }.bind(this)}
-              style={{ width: '300px', marginTop: '0px' }}
+              style={{ width: 300, marginTop: 0 }}
               disabled={false}
               label="Password"
               placeholder="Please enter password"
@@ -218,7 +216,7 @@ class DefaultPage$$Page extends React.Component<{
                   Array.prototype.slice.call(arguments).concat([])
                 );
               }.bind(this)}
-              style={{ width: '150px', marginTop: '30px' }}
+              style={{ width: 150, marginTop: 30 }}
               __events={{
                 eventList: [
                   {

@@ -10,9 +10,9 @@ export default function TabLayout() {
   const [index, setIndex] = useState(0);
 
   const [routes] = useState<BaseRoute[]>([
-    { key: 'List', title: 'List', focusedIcon: 'heart' },
+    { key: 'List', title: 'List', focusedIcon: 'heart', unfocusedIcon: 'heart-outline' },
     // { key: 'Detail', title: 'Detail', focusedIcon: 'heart' },
-    { key: 'Shop', title: 'Shop', focusedIcon: 'heart' },
+    { key: 'Shop', title: 'Shop', focusedIcon: 'home', unfocusedIcon: 'home-outline' },
   ]);
 
   const renderScene = BottomNavigation.SceneMap({

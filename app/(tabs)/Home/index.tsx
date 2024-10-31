@@ -72,12 +72,12 @@ class Home$$Page extends React.Component<{
         <PaperProvider>
           <View
             style={{
-              margin: '10px',
+              margin: 10,
               alignItems: 'center',
               flexWrap: 'wrap',
               flexDirection: 'row',
               display: 'flex',
-              paddingHorizontal: '12',
+              paddingHorizontal: 12,
             }}
           >
             <Searchbar
@@ -95,7 +95,7 @@ class Home$$Page extends React.Component<{
               buttonColor="#f5a623"
               labelStyle={{ fontSize: 12, fontStyle: 'normal' }}
               dark={true}
-              style={{ margin: '4px' }}
+              style={{ margin: 4 }}
             >
               Run/Walk
             </Button>
@@ -105,7 +105,7 @@ class Home$$Page extends React.Component<{
               buttonColor="#f5a623"
               dark={true}
               labelStyle={{ fontSize: 12 }}
-              style={{ margin: '4px' }}
+              style={{ margin: 4 }}
             >
               Auckland
             </Button>
@@ -115,7 +115,7 @@ class Home$$Page extends React.Component<{
               buttonColor="#f5a623"
               dark={true}
               labelStyle={{ fontSize: 12 }}
-              style={{ margin: '4px' }}
+              style={{ margin: 4 }}
             >
               Long(20km)
             </Button>
@@ -126,13 +126,11 @@ class Home$$Page extends React.Component<{
             delayLongPress={0}
             accessible={false}
             disabled={false}
-            style={{ margin: '10px' }}
+            style={{ margin: 10 }}
           >
             <Card.Title subtitle="Sun 20 Oct 2019" title="Auckland Marathon" />
             <Card.Cover
-              source={{
-                uri: '/gateway/console/api/v1/asset/expo_test/assets/image/logo.png?branchName=main',
-              }}
+              source={require('@/assets/image/logo.png')}
             />
             <Card.Actions>
               <IconButton size={30} icon="star" iconColor="#4a90e2" />

@@ -110,42 +110,38 @@ class List$$Page extends React.Component<{
                         flexDirection: 'row',
                         display: 'flex',
                         justifyContent: 'flex-start',
-                        height: '70px',
+                        height: 70,
                     }}
                 >
                     <Image
-                        style={{ margin: '5px', width: '45px', height: '45px' }}
-                        source={{
-                            uri: '/gateway/console/api/v1/asset/expo_test/assets/image/logo.png?branchName=main',
-                        }}
+                        style={{ margin: 5, width: 45, height: 45 }}
+                        source={require('@/assets/image/logo.png')}
                     />
                     <Image
                         style={{
-                            margin: '5px',
-                            width: '100px',
-                            height: '45px',
-                            marginLeft: '90px',
+                            margin: 5,
+                            width: 100,
+                            height: 45,
+                            marginLeft: 90,
                         }}
-                        source={{
-                            uri: '/gateway/console/api/v1/asset/expo_test/assets/image/rose.png?branchName=main',
-                        }}
+                        source={require('@/assets/image/rose.png')}
                     />
                 </View>
                 <View
                     style={{
-                        marginRight: '20px',
+                        marginRight: 20,
                         alignItems: 'center',
                         flexDirection: 'row',
                         display: 'flex',
-                        marginTop: '20px',
-                        marginLeft: '20px',
+                        marginTop: 20,
+                        marginLeft: 20,
                     }}
                 >
                     <Searchbar
                         mode="bar"
                         elevation={2}
                         showDivider={true}
-                        style={{ width: '220px' }}
+                        style={{ width: 220 }}
                         placeholder="Search"
                         loading={false}
                         value=""
@@ -157,7 +153,7 @@ class List$$Page extends React.Component<{
                         icon="tag"
                         iconColor="#ffffff"
                         animated={false}
-                        style={{ marginLeft: '10px' }}
+                        style={{ marginLeft: 10 }}
                         selected={false}
                     />
                     <IconButton
@@ -168,7 +164,7 @@ class List$$Page extends React.Component<{
                         iconColor="#ffffff"
                     />
                 </View>
-                <View style={{ marginTop: '20px' }}>
+                <View style={{ marginTop: 20 }}>
                     <Card
                         mode="elevated"
                         elevation={1}
@@ -176,10 +172,10 @@ class List$$Page extends React.Component<{
                         accessible={false}
                         disabled={false}
                         style={{
-                            marginRight: '20px',
+                            marginRight: 20,
                             backgroundColor: '#ffffff',
-                            marginBottom: '20px',
-                            marginLeft: '20px',
+                            marginBottom: 20,
+                            marginLeft: 20,
                         }}
                     >
                         <TouchableRipple
@@ -223,13 +219,11 @@ class List$$Page extends React.Component<{
                                         <View>
                                             <Image
                                                 style={{
-                                                    borderRadius: '25px',
-                                                    width: '50px',
-                                                    height: '50px',
+                                                    borderRadius: 25,
+                                                    width: 50,
+                                                    height: 50,
                                                 }}
-                                                source={{
-                                                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test4.jpg?branchName=main',
-                                                }}
+                                                source={require('@/assets/image/test4.jpg')}
                                             />
                                         </View>
                                     ))(__$$createChildContext(__$$context, { size }))
@@ -263,9 +257,9 @@ class List$$Page extends React.Component<{
                                             disabled={false}
                                             style={{
                                                 backgroundColor: '#ebebeb',
-                                                borderRadius: '16px',
-                                                width: '80px',
-                                                marginBottom: '10px',
+                                                borderRadius: 16,
+                                                width: 80,
+                                                marginBottom: 10,
                                             }}
                                             showSelectedCheck={false}
                                             accessibilityLabel=""
@@ -290,10 +284,10 @@ class List$$Page extends React.Component<{
                         accessible={false}
                         disabled={false}
                         style={{
-                            marginRight: '20px',
+                            marginRight: 20,
                             backgroundColor: '#ffffff',
-                            marginBottom: '20px',
-                            marginLeft: '20px',
+                            marginBottom: 20,
+                            marginLeft: 20,
                         }}
                     >
                         <TouchableRipple
@@ -337,13 +331,11 @@ class List$$Page extends React.Component<{
                                         <View>
                                             <Image
                                                 style={{
-                                                    borderRadius: '25px',
-                                                    width: '50px',
-                                                    height: '50px',
+                                                    borderRadius: 25,
+                                                    width: 50,
+                                                    height: 50,
                                                 }}
-                                                source={{
-                                                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test3.jpg?branchName=main',
-                                                }}
+                                                source={require('@/assets/image/test3.jpg')}
                                             />
                                         </View>
                                     ))(__$$createChildContext(__$$context, { size }))
@@ -377,8 +369,8 @@ class List$$Page extends React.Component<{
                                             disabled={false}
                                             style={{
                                                 backgroundColor: '#ebebeb',
-                                                borderRadius: '16px',
-                                                marginBottom: '10px',
+                                                borderRadius: 16,
+                                                marginBottom: 10,
                                             }}
                                             showSelectedCheck={false}
                                             accessibilityLabel=""
@@ -409,9 +401,9 @@ class List$$Page extends React.Component<{
                                             disabled={false}
                                             style={{
                                                 backgroundColor: '#ebebeb',
-                                                borderRadius: '16px',
-                                                marginBottom: '10px',
-                                                marginLeft: '10px',
+                                                borderRadius: 16,
+                                                marginBottom: 10,
+                                                marginLeft: 10,
                                             }}
                                             showSelectedCheck={false}
                                             accessibilityLabel=""
@@ -436,10 +428,10 @@ class List$$Page extends React.Component<{
                         accessible={false}
                         disabled={false}
                         style={{
-                            marginRight: '20px',
+                            marginRight: 20,
                             backgroundColor: '#ffffff',
-                            marginBottom: '20px',
-                            marginLeft: '20px',
+                            marginBottom: 20,
+                            marginLeft: 20,
                         }}
                     >
                         <TouchableRipple
@@ -483,13 +475,11 @@ class List$$Page extends React.Component<{
                                         <View>
                                             <Image
                                                 style={{
-                                                    borderRadius: '25px',
-                                                    width: '50px',
-                                                    height: '50px',
+                                                    borderRadius: 25,
+                                                    width: 50,
+                                                    height: 50,
                                                 }}
-                                                source={{
-                                                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test2.jpg?branchName=main',
-                                                }}
+                                                source={require('@/assets/image/test2.jpg')}
                                             />
                                         </View>
                                     ))(__$$createChildContext(__$$context, { size }))
@@ -523,8 +513,8 @@ class List$$Page extends React.Component<{
                                             disabled={false}
                                             style={{
                                                 backgroundColor: '#ebebeb',
-                                                borderRadius: '16px',
-                                                marginBottom: '10px',
+                                                borderRadius: 16,
+                                                marginBottom: 10,
                                             }}
                                             showSelectedCheck={false}
                                             accessibilityLabel=""
@@ -549,10 +539,10 @@ class List$$Page extends React.Component<{
                         accessible={false}
                         disabled={false}
                         style={{
-                            marginRight: '20px',
+                            marginRight: 20,
                             backgroundColor: '#ffffff',
-                            marginBottom: '20px',
-                            marginLeft: '20px',
+                            marginBottom: 20,
+                            marginLeft: 20,
                         }}
                     >
                         <TouchableRipple
@@ -596,13 +586,11 @@ class List$$Page extends React.Component<{
                                         <View>
                                             <Image
                                                 style={{
-                                                    borderRadius: '25px',
-                                                    width: '50px',
-                                                    height: '50px',
+                                                    borderRadius: 25,
+                                                    width: 50,
+                                                    height: 50,
                                                 }}
-                                                source={{
-                                                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test1.jpg?branchName=main',
-                                                }}
+                                                source={require('@/assets/image/test1.jpg')}
                                             />
                                         </View>
                                     ))(__$$createChildContext(__$$context, { size }))
@@ -617,8 +605,8 @@ class List$$Page extends React.Component<{
                         <Card.Content _unsafe_MixedSetter_children_select="SlotSetter">
                             {() =>
                                 ((__$$context) => (
-                                    <View style={{ marginBottom: '10px' }}>
-                                        <Text style={{ fontSize: '14px', fontWeight: 600 }}>
+                                    <View style={{ marginBottom: 10 }}>
+                                        <Text style={{ fontSize: 14, fontWeight: 600 }}>
                                             (Add some tags!)
                                         </Text>
                                     </View>
@@ -633,10 +621,10 @@ class List$$Page extends React.Component<{
                         accessible={false}
                         disabled={false}
                         style={{
-                            marginRight: '20px',
+                            marginRight: 20,
                             backgroundColor: '#ffffff',
-                            marginBottom: '20px',
-                            marginLeft: '20px',
+                            marginBottom: 20,
+                            marginLeft: 20,
                         }}
                     >
                         <TouchableRipple
@@ -680,13 +668,11 @@ class List$$Page extends React.Component<{
                                         <View>
                                             <Image
                                                 style={{
-                                                    borderRadius: '25px',
-                                                    width: '50px',
-                                                    height: '50px',
+                                                    borderRadius: 25,
+                                                    width: 50,
+                                                    height: 50,
                                                 }}
-                                                source={{
-                                                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/test1.jpg?branchName=main',
-                                                }}
+                                                source={require('@/assets/image/test1.jpg')}
                                             />
                                         </View>
                                     ))(__$$createChildContext(__$$context, { size }))
@@ -701,8 +687,8 @@ class List$$Page extends React.Component<{
                         <Card.Content _unsafe_MixedSetter_children_select="SlotSetter">
                             {() =>
                                 ((__$$context) => (
-                                    <View style={{ marginBottom: '10px' }}>
-                                        <Text style={{ fontSize: '14px', fontWeight: 600 }}>
+                                    <View style={{ marginBottom: 10 }}>
+                                        <Text style={{ fontSize: 14, fontWeight: 600 }}>
                                             (Add some tags!)
                                         </Text>
                                     </View>
@@ -717,10 +703,10 @@ class List$$Page extends React.Component<{
                         accessible={false}
                         disabled={false}
                         style={{
-                            marginRight: '20px',
+                            marginRight: 20,
                             backgroundColor: '#ffffff',
-                            marginBottom: '20px',
-                            marginLeft: '20px',
+                            marginBottom: 20,
+                            marginLeft: 20,
                         }}
                     >
                         <TouchableRipple
@@ -764,13 +750,11 @@ class List$$Page extends React.Component<{
                                         <View>
                                             <Image
                                                 style={{
-                                                    borderRadius: '25px',
-                                                    width: '50px',
-                                                    height: '50px',
+                                                    borderRadius: 25,
+                                                    width: 50,
+                                                    height: 50,
                                                 }}
-                                                source={{
-                                                    uri: '/gateway/console/api/v1/asset/expo_test/assets/image/021C036C5A9FAD612DA19A8D62D74857.jpg?branchName=main',
-                                                }}
+                                                source={require('@/assets/image/021C036C5A9FAD612DA19A8D62D74857.jpg')}
                                             />
                                         </View>
                                     ))(__$$createChildContext(__$$context, { size }))
@@ -806,8 +790,8 @@ class List$$Page extends React.Component<{
                                             disabled={false}
                                             style={{
                                                 backgroundColor: '#ebebeb',
-                                                borderRadius: '16px',
-                                                marginBottom: '10px',
+                                                borderRadius: 16,
+                                                marginBottom: 10,
                                             }}
                                             showSelectedCheck={false}
                                             accessibilityLabel=""

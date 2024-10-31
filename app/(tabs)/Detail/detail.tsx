@@ -113,21 +113,21 @@ class Detail$$Page extends React.Component<{
             title: __$$eval(() => this.state.info?.name ?? 'unknown'),
           }}
         />
-        <View style={{ margin: '10px' }}>
+        <View style={{ margin: 10 }}>
           <Input
             mode="flat"
             label="Name"
             value={__$$eval(() => this.state.info?.name)}
           />
         </View>
-        <View style={{ margin: '10px' }}>
+        <View style={{ margin: 10 }}>
           <Input
             mode="flat"
             label="Job"
             value={__$$eval(() => this.state.info?.job)}
           />
         </View>
-        <View style={{ margin: '10px' }}>
+        <View style={{ margin: 10 }}>
           <RadioButtonGroup value={__$$eval(() => this.state.info?.gender)}>
             <View
               style={{
@@ -137,7 +137,7 @@ class Detail$$Page extends React.Component<{
                 justifyContent: 'space-between',
               }}
             >
-              <Text style={{ fontSize: '20px' }}>Male</Text>
+              <Text style={{ fontSize: 20 }}>Male</Text>
               <RadioButton
                 color=""
                 uncheckedColor=""
@@ -155,7 +155,7 @@ class Detail$$Page extends React.Component<{
                 justifyContent: 'space-between',
               }}
             >
-              <Text style={{ fontSize: '20px' }}>Female</Text>
+              <Text style={{ fontSize: 20 }}>Female</Text>
               <RadioButton
                 color=""
                 uncheckedColor=""
@@ -166,7 +166,7 @@ class Detail$$Page extends React.Component<{
             </View>
           </RadioButtonGroup>
         </View>
-        <View style={{ margin: '10px' }}>
+        <View style={{ margin: 10 }}>
           <Input
             mode="flat"
             label="Address"
